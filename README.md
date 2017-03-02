@@ -31,6 +31,12 @@ npm install -g vim-package-manager
 
 this provides an executable on the users `$PATH` called `vpm`.
 
+I'm not sure about this - I may actually try to implement it in Haskell.
+I don't like `fmap` (should be map dammit!) but other than that Haskell
+seems like a better choice than Purescript for this, esp for working with
+Git, parallelism, and so on. Plus building a binary is a bit nicer than
+shipping a bundled piece of JavaScript :)
+
 ```
 vpm init
 ```
