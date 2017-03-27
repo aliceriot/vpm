@@ -37,9 +37,6 @@ seems like a better choice than Purescript for this, esp for working with
 Git, parallelism, and so on. Plus building a binary is a bit nicer than
 shipping a bundled piece of JavaScript :)
 
-Changed my mind again! I'm going to first prototype everything in pure JS
-and then maybe rewrite, probably in Haskell.
-
 ```
 vpm init
 ```
