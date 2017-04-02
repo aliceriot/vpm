@@ -21,7 +21,7 @@
 
 ### startup / install
 
-I'm planning to write the thing in Purescript, and publish a usable
+I'm planning to write the thing in PureScript, and publish a usable
 'binary' (compiled JS) on `npm`, so a user shouldn't need to do anything
 other than:
 
@@ -33,9 +33,12 @@ this provides an executable on the users `$PATH` called `vpm`.
 
 I'm not sure about this - I may actually try to implement it in Haskell.
 I don't like `fmap` (should be map dammit!) but other than that Haskell
-seems like a better choice than Purescript for this, esp for working with
+seems like a better choice than PureScript for this, esp for working with
 Git, parallelism, and so on. Plus building a binary is a bit nicer than
 shipping a bundled piece of JavaScript :)
+
+I actually for now am going to prototype it in PureScript for now, and
+will re-write in Haskell if I encounter great difficulties.
 
 ```
 vpm init
