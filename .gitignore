@@ -2,6 +2,6 @@
 /node_modules/
 /.pulp-cache/
 /output/
-/.psci*
-/src/.webpack.js
-.stack-work/
+/generated-docs/
+/.psc*
+/.psa*
