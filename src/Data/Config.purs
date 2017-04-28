@@ -1,1 +1,1 @@
-module Config where
+module Data.Config where
