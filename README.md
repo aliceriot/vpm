@@ -21,9 +21,8 @@
 
 ### startup / install
 
-I'm planning to write the thing in Purescript, and publish a usable
-'binary' (compiled JS) on `npm`, so a user shouldn't need to do anything
-other than:
+I'm planning to write the thing in Nodejs, and publish it on `npm`, so
+a user shouldn't need to do anything other than:
 
 ```
 npm install -g vim-package-manager
@@ -166,8 +165,8 @@ and not have to worry about having different versions installed on
 different machines, make it easier to diagnose and deal with problems that
 come up with a particular plugin, etc.
 
-Anyway, here is an example `package.json` and an accompanying lockfile,
-showing a basic configuration for `nvim`:
+Anyway, here is an example `vim-package.json` and an accompanying
+lockfile, showing a basic configuration for `nvim`:
 
 ```json
 {
