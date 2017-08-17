@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aliceriot/vpm/issues"
   },
-  "homepage": "https://github.com/aliceriot/vpm#readme"
+  "homepage": "https://github.com/aliceriot/vpm#readme",
+  "dependencies": {
+    "prettier": "^1.5.3"
+  }
 }
